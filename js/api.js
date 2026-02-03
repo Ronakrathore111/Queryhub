@@ -2,7 +2,7 @@
 
 const API_BASE = window.location.hostname === "localhost"
   ? "http://localhost:5000/api"
-  : "https://queryhub.onrender.com/api";
+  : "https://queryhub-ht9p.onrender.com/api";
 
 async function fetchJSON(url, options = {}) {
   const res = await fetch(url, options);
